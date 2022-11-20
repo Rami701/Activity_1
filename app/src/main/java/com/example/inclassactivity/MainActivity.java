@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 if(swiImportant.isChecked()){
                     isImportant = "Important";
                 }
-                newTask += " (" + day + ")" + " " + isImportant + ", ";
+                newTask += " (" + day + ")" + " " + isImportant;
 
                 allTasks += newTask;
                 viewTasks.setText(allTasks);
